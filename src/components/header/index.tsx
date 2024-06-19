@@ -1,4 +1,5 @@
 import { Text, TextInput, View } from "react-native";
+import FilterButton from "../filterButton/filterButton";
 import styles from "./styles";
 import useFilter from "./useFilter";
 
@@ -24,7 +25,10 @@ function Header({ onFilterChange }: HeaderProps) {
         value={filter}
         onChangeText={handleFilter}
       />
+      <FilterButton />
+
     </View>
+    
   );
 }
 

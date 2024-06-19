@@ -1,8 +1,8 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   header: {
-    height: 150,
+    height: 160,
     padding: 16,
     width: "100%",
     alignItems: "center",
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff",
     borderRadius: 4,
     marginTop: 12,
+    marginBottom: 12,
     width: "80%",
     padding: 8,
   },
