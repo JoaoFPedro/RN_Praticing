@@ -29,8 +29,8 @@ export default function App() {
   };
 
   return (
-    <View style={styles.container}>
-      <Header onFilterChange={handleFilterChange}/>
+    <View style={styles.container}>      
+      <Header onFilterChange={handleFilterChange}/>      
       <GameList games={filteredGames}/>
       <Footer />
     </View>
