@@ -1,14 +1,14 @@
-import { Text, TextInput, View } from "react-native";
-import FilterButton from "../filterButton/filterButton";
+import { useState } from "react";
+import { Button, Text, TextInput, View } from "react-native";
 import styles from "./styles";
-import useFilter from "./useFilter";
+
 
 interface HeaderProps {
-  onFilterChange: (text: string) => void;
+  applyFilter: (text: string) => void
 }
 
-function Header({ onFilterChange }: HeaderProps) {
-  const { filter, handleFilter } = useFilter({ onFilterChange });
+function Header({ applyFilter }: HeaderProps) {
+  const [inputFilter, setInputFilter]  = useState('');
   // const [filter, setFilter] = useState<string>('');
 
   // const handleFilter = (text: string) => {
@@ -16,17 +16,20 @@ function Header({ onFilterChange }: HeaderProps) {
   //     onFilterChange(text);
   // };
 
+  const handleApplyFilter =  () => {
+    applyFilter(inputFilter)
+  }
   return (
     <View style={styles.header}>
       <Text style={styles.headerText}>Top Games</Text>
       <TextInput
         style={styles.input}
         placeholder="Filtre por nome"
-        value={filter}
-        onChangeText={handleFilter}
+        value={inputFilter}
+        onChangeText={(value) => setInputFilter(value) }
+        
       />
-      <FilterButton />
-
+      <Button title="Filter" onPress={handleApplyFilter}/>
     </View>
     
   );

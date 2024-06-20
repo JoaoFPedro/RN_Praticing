@@ -10,27 +10,25 @@ import GameList from './src/pages/GameList';
 export default function App() {
   const [filteredGames, setFilteredGames] = useState<IGames[]>(games);
 
-  const handleFilterChange = (filterText: string) => {
-    const lowercasedFilter = filterText.toLowerCase();
+  const applyFilter = (filterText: string) => {
+   
 
-    if(lowercasedFilter === ''){
+    if(filterText === ''){
       setFilteredGames(games);
     }
 
     else {
-    const filtered = games.filter(game =>
-      game.name.toLowerCase().split(' ').some(part =>
-        part.localeCompare(lowercasedFilter, undefined, { sensitivity: 'base' }) === 0
-      )
-    );
-    
+      const lowercasedFilter = filterText.toLowerCase();
+      const filtered = games.filter(game =>      
+      game.name.toLowerCase().includes(lowercasedFilter)
+      
+    );    
     setFilteredGames(filtered);
       }
   };
-
   return (
     <View style={styles.container}>      
-      <Header onFilterChange={handleFilterChange}/>      
+      <Header applyFilter={applyFilter}/>      
       <GameList games={filteredGames}/>
       <Footer />
     </View>
