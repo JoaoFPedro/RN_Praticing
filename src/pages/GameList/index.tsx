@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from 'react-native';
+import { FlatList, Text, View } from 'react-native';
 import GameCard from '../../components/GameCard';
 import { IGames } from '../../data/games';
 import styles from './styles';
