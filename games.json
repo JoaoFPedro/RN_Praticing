@@ -1,0 +1,114 @@
+[
+	{
+		"nome": "Red Dead Redemption 2",
+		"imagem": "https://reddead.fandom.com/wiki/Hats/Masks_in_Redemption_2",
+		"plataforma": ["Xbox One", "PC", "PS4"],
+		"ano_lancamento": 2018
+	},
+	{
+		"nome": "Cyberpunk 2077",
+		"imagem": "https://game8.co/games/Cyberpunk-2077/archives/312231",
+		"plataforma": ["Xbox One", "PC", "PS4", "PS5", "Xbox Series X/S"],
+		"ano_lancamento": 2020
+	},
+	{
+		"nome": "Elden Ring",
+		"imagem": "https://gamerant.com/elden-ring-stat-attribute-soft-hard-caps-diminishing-returns/",
+		"plataforma": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S"],
+		"ano_lancamento": 2022
+	},
+	{
+		"nome": "Forza Horizon 5",
+		"imagem": "https://www.reddit.com/r/ForzaHorizon/comments/pasw1c/fh5_cover_cars_revealed/",
+		"plataforma": ["Xbox One", "PC", "Xbox Series X/S"],
+		"ano_lancamento": 2021
+	},
+	{
+		"nome": "Halo Infinite",
+		"imagem": "https://gear.xbox.com/collections/halo-infinite/hats",
+		"plataforma": ["Xbox One", "PC", "Xbox Series X/S"],
+		"ano_lancamento": 2021
+	},
+	{
+		"nome": "God of War (2018)",
+		"imagem": "https://www.prime1studio.com/gow-kratos-and-atreus-the-valkyrie-armor-set/UPMGOW-03DX.html",
+		"plataforma": ["PS4", "PC"],
+		"ano_lancamento": 2018
+	},
+	{
+		"nome": "The Last of Us Part II",
+		"imagem": "https://gear.eu.playstation.com/Product/1535014-The_Last_of_Us_Part_II_Embroidered_Cap",
+		"plataforma": ["PS4"],
+		"ano_lancamento": 2020
+	},
+	{
+		"nome": "Ghost of Tsushima",
+		"imagem": "https://www.gamespot.com/articles/ghost-of-tsushima-ghost-armor-guide-how-to-get-the/1100-6479958/",
+		"plataforma": ["PS4", "PS5"],
+		"ano_lancamento": 2020
+	},
+	{
+		"nome": "Marvel's Spider-Man: Miles Morales",
+		"imagem": "https://www.youtube.com/watch?v=8zDQRUAjyEw",
+		"plataforma": ["PS4", "PS5"],
+		"ano_lancamento": 2020
+	},
+	{
+		"nome": "Ratchet & Clank: Rift Apart",
+		"imagem": "https://www.youtube.com/watch?v=z50XcToLb3s",
+		"plataforma": ["PS5"],
+		"ano_lancamento": 2021
+	},
+	{
+		"nome": "Minecraft",
+		"imagem": "https://minecraft.novaskin.me/gallery/tag/capa",
+		"plataforma": [
+			"Xbox One",
+			"PC",
+			"PS4",
+			"PS5",
+			"Xbox Series X/S",
+			"Nintendo Switch",
+			"Mobile"
+		],
+		"ano_lancamento": 2009
+	},
+	{
+		"nome": "Grand Theft Auto V",
+		"imagem": "https://www.youtube.com/watch?v=69-nFC4NTFg",
+		"plataforma": ["Xbox One", "PC", "PS4", "PS5", "Xbox Series X/S"],
+		"ano_lancamento": 2013
+	},
+	{
+		"nome": "Among Us",
+		"imagem": "https://www.planetminecraft.com/collection/93577/among-us-capes/",
+		"plataforma": ["PC", "Mobile", "Switch", "Xbox One", "PS4", "PS5"],
+		"ano_lancamento": 2018
+	},
+	{
+		"nome": "Fortnite",
+		"imagem": "https://www.amazon.com/fortnite-hat/s?k=fortnite+hat",
+		"plataforma": [
+			"Xbox One",
+			"PC",
+			"PS4",
+			"PS5",
+			"Xbox Series X/S",
+			"Nintendo Switch",
+			"Mobile"
+		],
+		"ano_lancamento": 2017
+	},
+	{
+		"nome": "Apex Legends",
+		"imagem": "https://www.ea.com/games/apex-legends/news/prime-gaming-bundle-rampart-all-star",
+		"plataforma": ["Xbox One", "PC", "PS4", "PS5", "Switch"],
+		"ano_lancamento": 2019
+	},
+	{
+		"nome": "League of Legends",
+		"imagem": "https://lol.fandom.com/wiki/Caps",
+		"plataforma": ["PC"],
+		"ano_lancamento": 2009
+	}
+]
